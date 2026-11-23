@@ -1,0 +1,17 @@
+# Build output
+*.dll
+*.obj
+*.exp
+*.lib
+*.pdb
+__pycache__/
+
+# Game files: Square Enix's code, never commit
+*.exe
+*.asm
+
+# Cheat Engine tables are distributed by NikoKV, not here
+*.CT
+
+# Local logs
+*.log
