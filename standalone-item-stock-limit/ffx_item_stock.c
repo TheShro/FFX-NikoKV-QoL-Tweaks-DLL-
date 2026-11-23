@@ -32,7 +32,7 @@
 
 /* The game function that adds to an item stack: reads the stack count, pushes the
  * maximum (99), and calls a clamp helper. The tweak pushes 255 instead. */
-static const char PATTERN[] =
+static const char ITEM_PATTERN[] =
     "0F B6 B7 ?? ?? ?? ?? 6A 63 8D 04 1E 6A 00 50 E8 ?? ?? ?? ?? 83 C4 0C 89 45 FC 88 87 ?? ?? ?? ?? 3B C6";
 #define EXPECTED_OFFSET 0x3905F6UL     /* only used to flag a shifted build in the log */
 
@@ -141,7 +141,7 @@ static void attempt(int timed_out)
     BYTE val[PAT_MAX], msk[PAT_MAX];
     DWORD hits[8];
     HMODULE exe = GetModuleHandleA(NULL);
-    int n = pat_parse(PATTERN, val, msk, PAT_MAX), c, k;
+    int n = pat_parse(ITEM_PATTERN, val, msk, PAT_MAX), c, k;
 
     if (n < 0) { say("BAD PATTERN (bug in the module)"); g_done = 1; return; }
     c = scan_exe(exe, val, msk, n, hits, 8);
