@@ -8,7 +8,9 @@ once and play. It also fixes two problems with the table:
 - A save loaded before the table was active could lose item stacks above 99.
 - Closing Cheat Engine with a tweak active could break the game.
 
-**Original work by NikoKV:** https://www.nexusmods.com/finalfantasyxx2hdremaster/mods/186
+- **Original work by NikoKV:** https://www.nexusmods.com/finalfantasyxx2hdremaster/mods/186
+- **This module on Nexus Mods (releases, permissions and credits):**
+  https://www.nexusmods.com/finalfantasyxx2hdremaster/mods/364
 
 ## What it does
 
@@ -82,7 +84,9 @@ report the log.
 
 This module is derived from NikoKV's work. It is published with **NikoKV's express permission**,
 on the condition that he is credited and linked back to:
-https://www.nexusmods.com/finalfantasyxx2hdremaster/mods/186
+https://www.nexusmods.com/finalfantasyxx2hdremaster/mods/186. The released module, with its
+permissions and credits, is on Nexus Mods:
+https://www.nexusmods.com/finalfantasyxx2hdremaster/mods/364
 
 No open-source licence is granted. All rights to the original tweaks stay with NikoKV. Reuse or
 redistribution needs his permission. This module will be taken down at the original author's
